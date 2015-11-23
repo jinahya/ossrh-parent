@@ -6,14 +6,11 @@
   <!-- The Basics -->
   <groupId>com.github.jinahya</groupId>
   <artifactId>ossrh-parent</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <packaging>pom</packaging>
   <dependencyManagement />
   <dependencies />
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-  </properties>
+  <properties />
 
   <!-- Build Settings -->
   <build>
@@ -22,7 +19,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
-          <version>1.4</version>
+          <version>1.4.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -42,7 +39,7 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.6.5</version>
+          <version>1.6.6</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -95,7 +92,7 @@
     <connection>scm:git:git@github.com:jinahya/ossrh-parent.git</connection>
     <developerConnection>scm:git:git@github.com:jinahya/ossrh-parent.git</developerConnection>
     <url>https://github.com/jinahya/ossrh-parent</url>
-    <tag>0.1.1</tag>
+    <tag>0.1.2</tag>
   </scm>
   <prerequisites>
     <maven>3.0.4</maven>
