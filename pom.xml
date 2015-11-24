@@ -6,7 +6,7 @@
   <!-- The Basics -->
   <groupId>com.github.jinahya</groupId>
   <artifactId>ossrh-parent</artifactId>
-  <version>0.2.2</version>
+  <version>0.3</version>
   <packaging>pom</packaging>
   <dependencyManagement />
   <dependencies />
@@ -54,9 +54,9 @@
   <reporting />
 
   <!-- More Project Information -->
-  <name>ossrh-parent</name>
+  <name>${project.artifactId}</name>
   <description>parent pom for ossrh</description>
-  <url>http://jinahya.github.io/ossrh-parent/sites/${project.version}</url>
+  <url>https://github.com/jinahya/${project.artifactId}</url>
   <inceptionYear>2015</inceptionYear>
   <licenses>
     <license>
@@ -79,15 +79,15 @@
   <!-- Environment Settings -->
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/jinahya/ossrh-parent/issues</url>
+    <url>https://github.com/jinahya/${project.artifactId}/issues</url>
   </issueManagement>
   <ciManagement />
   <mailingLists />
   <scm>
-    <connection>scm:git:git@github.com:jinahya/ossrh-parent.git</connection>
-    <developerConnection>scm:git:git@github.com:jinahya/ossrh-parent.git</developerConnection>
-    <url>https://github.com/jinahya/ossrh-parent</url>
-    <tag>0.2.2</tag>
+    <connection>scm:git:git@github.com:jinahya/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:jinahya/${project.artifactId}.git</developerConnection>
+    <url>https://github.com/jinahya/${project.artifactId}</url>
+    <tag>0.3</tag>
   </scm>
   <prerequisites>
     <maven>3.0.4</maven>
