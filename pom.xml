@@ -4,13 +4,12 @@
 
   <groupId>com.github.jinahya</groupId>
   <artifactId>ossrh-parent</artifactId>
-  <version>0.4</version>
+  <version>0.5</version>
   <packaging>pom</packaging>
 
   <name>${project.artifactId}</name>
   <description>parent pom for ossrh</description>
   <url>https://github.com/jinahya/${project.artifactId}</url>
-  <inceptionYear>2015</inceptionYear>
   <licenses>
     <license>
       <name>Apache 2</name>
@@ -28,24 +27,12 @@
     </developer>
   </developers>
 
-  <prerequisites>
-    <maven>3.0.4</maven>
-  </prerequisites>
-
   <scm>
     <connection>scm:git:git@github.com:jinahya/${project.artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:jinahya/${project.artifactId}.git</developerConnection>
     <url>git@github.com:jinahya/${project.artifactId}.git</url>
-    <tag>0.4</tag>
+    <tag>0.5</tag>
   </scm>
-  <issueManagement>
-    <system>GitHub Issues</system>
-    <url>https://github.com/jinahya/${project.artifactId}/issues</url>
-  </issueManagement>
-  <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/jinahya/${project.artifactId}</url>
-  </ciManagement>
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
