@@ -4,7 +4,7 @@
 
   <groupId>com.github.jinahya</groupId>
   <artifactId>ossrh-parent</artifactId>
-  <version>0.8.5</version>
+  <version>0.8.6</version>
   <packaging>pom</packaging>
 
   <name>${project.artifactId}</name>
@@ -25,17 +25,18 @@
       <name>Jin Kwon</name>
       <email>jinahya@gmail.com</email>
     </developer>
+    <developer>
+      <id>onait</id>
+      <name>Jin Kwon</name>
+      <email>onacit@gmail.com</email>
+    </developer>
   </developers>
-
-  <prerequisites>
-    <maven>3.0.4</maven>
-  </prerequisites>
 
   <scm>
     <connection>scm:git:git@github.com:jinahya/${project.artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:jinahya/${project.artifactId}.git</developerConnection>
     <url>git@github.com:jinahya/${project.artifactId}.git</url>
-    <tag>0.8.5</tag>
+    <tag>0.8.6</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
@@ -49,10 +50,6 @@
     </repository>
     -->
   </distributionManagement>
-
-  <properties>
-    <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
-  </properties>
 
   <build>
     <pluginManagement>
@@ -70,7 +67,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>${maven-javadoc-plugin.version}</version>
+          <version>3.0.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
