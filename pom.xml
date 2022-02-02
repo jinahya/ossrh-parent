@@ -4,7 +4,7 @@
 
   <groupId>com.github.jinahya</groupId>
   <artifactId>ossrh-parent</artifactId>
-  <version>0.9.8</version>
+  <version>0.9.9</version>
   <packaging>pom</packaging>
 
   <name>${project.artifactId}</name>
@@ -40,18 +40,18 @@
     <connection>scm:git:git@github.com:jinahya/${project.artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:jinahya/${project.artifactId}.git</developerConnection>
     <url>git@github.com:jinahya/${project.artifactId}.git</url>
-    <tag>0.9.8</tag>
+    <tag>0.9.9</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
-<!--      <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
-      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+<!--      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>-->
     </snapshotRepository>
     <repository>
       <id>ossrh</id>
-<!--      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
-      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+<!--      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
     </repository>
   </distributionManagement>
 
@@ -197,8 +197,8 @@
             <extensions>true</extensions>
             <configuration>
               <serverId>ossrh</serverId>
-<!--              <nexusUrl>https://oss.sonatype.org/</nexusUrl>-->
-              <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+<!--              <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>-->
               <autoReleaseAfterClose>true</autoReleaseAfterClose>
             </configuration>
           </plugin>
