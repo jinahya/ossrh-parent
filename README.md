@@ -1,4 +1,7 @@
 # ossrh-parent
+
+REPLACED BY [central-parent](https://github.com/jinahya/central-parent).
+
 [![Build Status](https://travis-ci.org/jinahya/ossrh-parent.svg)](https://travis-ci.org/jinahya/ossrh-parent)
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.jinahya/ossrh-parent.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.github.jinahya%22%20AND%20a%3A%22ossrh-parent%22)
 
