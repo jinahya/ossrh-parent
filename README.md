@@ -1,8 +1,14 @@
 # ossrh-parent
 
-REPLACED BY [central-parent](https://github.com/jinahya/central-parent).
 
-[![Build Status](https://travis-ci.org/jinahya/ossrh-parent.svg)](https://travis-ci.org/jinahya/ossrh-parent)
+
+**REPLACED BY [central-parent](https://github.com/jinahya/central-parent).**
+**REPLACED BY [central-parent](https://github.com/jinahya/central-parent).**
+**REPLACED BY [central-parent](https://github.com/jinahya/central-parent).**
+**REPLACED BY [central-parent](https://github.com/jinahya/central-parent).**
+
+
+
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.jinahya/ossrh-parent.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.github.jinahya%22%20AND%20a%3A%22ossrh-parent%22)
 
 A parent pom for deploying artifacts to `oss.sonatype.org`. see [OSSRH Guide](http://central.sonatype.org/pages/ossrh-guide.html) (or [Apache Maven specific](http://central.sonatype.org/pages/apache-maven.html)). You might also want to see [Working with PGP Signatures](http://central.sonatype.org/pages/working-with-pgp-signatures.html).
